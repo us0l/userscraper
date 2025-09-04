@@ -3,9 +3,9 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 
 // Bot configuration
-const TOKEN = 'YOUR_BOT_TOKEN_HERE';
-const CLIENT_ID = 'YOUR_CLIENT_ID_HERE';
-const GUILD_ID = 'YOUR_GUILD_ID_HERE'; // Optional: for guild-specific commands
+const TOKEN = 'MTQxMTMzODE3NjMxNTc4NTI1Ng.G_b4fs.VdYNtj3BbC7TU3TgS5jlUNEW-u9Ft9I3YFVses';
+const CLIENT_ID = '1411338176315785256';
+const GUILD_ID = ''; // Optional: for guild-specific commands
 
 const client = new Client({
     intents: [GatewayIntentBits.Guilds]
